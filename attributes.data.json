@@ -1,0 +1,2304 @@
+{
+  "title": "Исток",
+  "description": "Азур-источник восходящего",
+  "children": [
+    {
+      "title": "Тело",
+      "description": "Показатель развития физических характеристик.",
+      "skills": "",
+      "children": [
+        {
+          "title": "Физионика",
+          "description": "Физические кондиции организма (сила, выносливость).",
+          "skills": "Ускоренной Циркуляции ЗК",
+          "children": [
+            {
+              "title": "Мощь",
+              "description": "неизвестно",
+              "skills": "",
+              "children": [
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Выносливость",
+              "description": "неизвестно",
+              "skills": "",
+              "children": [
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Размерность",
+              "description": "неизвестно",
+              "skills": "",
+              "children": [
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Моторика",
+          "description": "Скорость реакции, рефлексы и координация движений.",
+          "skills": "",
+          "children": [
+            {
+              "title": "Ловкость",
+              "description": "неизвестно",
+              "skills": "",
+              "children": [
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Движение",
+              "description": "неизвестно",
+              "skills": "",
+              "children": [
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Координация",
+              "description": "неизвестно",
+              "skills": "",
+              "children": [
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Телесность",
+          "description": "Скелетный каркас, обмен веществ, живучесть и регенерация.",
+          "skills": "",
+          "children": [
+            {
+              "title": "Совершенность",
+              "description": "неизвестно",
+              "skills": "",
+              "children": [
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Изменяемость",
+              "description": "неизвестно",
+              "skills": "",
+              "children": [
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Адаптивность",
+              "description": "неизвестно",
+              "skills": "",
+              "children": [
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Разум",
+      "description": "Мыслительное и психоэмоциональное развитие.",
+      "skills": "",
+      "children": [
+        {
+          "title": "Мышление",
+          "description": "Логика, интеллект, память и познание.",
+          "skills": "",
+          "children": [
+            {
+              "title": "Интеллект",
+              "description": "Способность усваивать, обрабатывать и использовать информацию.",
+              "skills": "",
+              "children": [
+                {
+                  "title": "Воображение",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Искусность",
+                  "description": "спутница великих мастеров",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Анализ",
+                  "description": "видеть причины и следствия",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Мнемоника",
+              "description": "неизвестно",
+              "skills": "",
+              "children": [
+                {
+                  "title": "Память Прошлого",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Интуиция",
+              "description": "Умение видеть знаки Незримого.",
+              "skills": "",
+              "children": [
+                {
+                  "title": "Всеведение",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Восприятие",
+          "description": "Извлечение полезной информации из органов чувств.",
+          "skills": "",
+          "children": [
+            {
+              "title": "Познание",
+              "description": "неизвестно",
+              "skills": "",
+              "children": [
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Острота",
+              "description": "неизвестно",
+              "skills": "",
+              "children": [
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Чувственность",
+              "description": "неизвестно",
+              "skills": "",
+              "children": [
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Воля",
+          "description": "неизвестно",
+          "skills": "",
+          "children": [
+            {
+              "title": "Контроль",
+              "description": "неизвестно",
+              "skills": "",
+              "children": [
+                {
+                  "title": "Множественность",
+                  "description": "разделение сознания на потоки",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Абсолютность",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Бастион",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Подчинение",
+              "description": "неизвестно",
+              "skills": "",
+              "children": [
+                {
+                  "title": "Владычество",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Влияние",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Иерархия",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Устойчивость",
+              "description": "неизвестно",
+              "skills": "",
+              "children": [
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Дух",
+      "description": "Духовное и ментальное развитие, регенерация Звездной Крови.",
+      "skills": "",
+      "children": [
+        {
+          "title": "Стихийность",
+          "description": "Сродство со стихиями и сопротивление стихийному урону.",
+          "skills": "",
+          "children": [
+            {
+              "title": "Элементность",
+              "description": "Управление стихийными силами.",
+              "skills": "",
+              "children": [
+                {
+                  "title": "Повелевание",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Поглощение",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Синтез",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Витамантия",
+              "description": "Управление жизненными силами и исцелением.",
+              "skills": "",
+              "children": [
+                {
+                  "title": "Биомантия",
+                  "description": "управление живым",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Творение",
+                  "description": "создание и изменение жизни",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Возрождение",
+                  "description": "исцеление и живучесть",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Некротика",
+              "description": "Управление стихией Смерти.",
+              "skills": "",
+              "children": [
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ментальность",
+          "description": "Ускоряет восполнение Звездной Крови, открывает ментальные навыки.",
+          "skills": "",
+          "children": [
+            {
+              "title": "Мистика",
+              "description": "неизвестно",
+              "skills": "",
+              "children": [
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Псионика",
+              "description": "неизвестно",
+              "skills": "",
+              "children": [
+                {
+                  "title": "Психоманипуляция",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Энергия",
+              "description": "Манипуляции с энергией.",
+              "skills": "",
+              "children": [
+                {
+                  "title": "Аура",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Потенциал",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Эманации",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Предвидение",
+          "description": "неизвестно",
+          "skills": "Контроль ЗК (руной) и Концентрация",
+          "children": [
+            {
+              "title": "Ритуальность",
+              "description": "неизвестно",
+              "skills": "",
+              "children": [
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Теургия",
+              "description": "неизвестно",
+              "skills": "",
+              "children": [
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Прозрение",
+              "description": "неизвестно",
+              "skills": "",
+              "children": [
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "неизвестно",
+                  "description": "неизвестно",
+                  "skills": "",
+                  "children": [
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    },
+                    {
+                      "title": "неизвестно",
+                      "description": "неизвестно",
+                      "skills": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
