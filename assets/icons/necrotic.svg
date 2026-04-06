@@ -1,0 +1,66 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+  <!-- Полированное серебро -->
+  <radialGradient id="silver" cx="35%" cy="30%" r="70%">
+    <stop offset="0%" stop-color="#ffffff"/>
+    <stop offset="25%" stop-color="#e8e8e8"/>
+    <stop offset="45%" stop-color="#cfcfcf"/>
+    <stop offset="65%" stop-color="#f5f5f5"/>
+    <stop offset="85%" stop-color="#b5b5b5"/>
+    <stop offset="100%" stop-color="#8e8e8e"/>
+  </radialGradient>
+
+  <!-- Блик -->
+  <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9"/>
+    <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+  </linearGradient>
+
+  <!-- Маска для прорезанных отверстий -->
+  <mask id="cutouts">
+    <rect width="64" height="64" fill="white"/>
+
+    <!-- глазницы -->
+    <ellipse cx="25" cy="30" rx="4" ry="5" fill="black"/>
+    <ellipse cx="39" cy="30" rx="4" ry="5" fill="black"/>
+
+    <!-- нос -->
+    <path d="M32 34 L29 40 L35 40 Z" fill="black"/>
+
+    <!-- рот -->
+    <rect x="24" y="44" width="16" height="6" rx="2" fill="black"/>
+  </mask>
+
+</defs>
+
+<!-- круглый фон -->
+<circle cx="32" cy="32" r="31" fill="#0b0b0f"/>
+
+<!-- серебряный череп -->
+<path
+mask="url(#cutouts)"
+d="
+M32 10
+C22 10 16 18 16 26
+C16 34 20 38 22 40
+L22 48
+C22 51 26 54 32 54
+C38 54 42 51 42 48
+L42 40
+C44 38 48 34 48 26
+C48 18 42 10 32 10
+Z"
+fill="url(#silver)"
+/>
+
+<!-- металлический блик -->
+<path
+d="M22 18 C26 14 36 14 40 22"
+stroke="url(#shine)"
+stroke-width="3"
+stroke-linecap="round"
+fill="none"
+/>
+
+</svg>

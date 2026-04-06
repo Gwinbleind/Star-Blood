@@ -1,10 +1,12 @@
 {
-  "title": "Исток",
+  "title": "",
   "description": "Азур-источник восходящего",
+  "icon": "./assets/icons/istok.svg",
   "children": [
     {
       "title": "Тело",
       "description": "Показатель развития физических характеристик.",
+      "icon": "./assets/icons/telo.svg",
       "skills": "",
       "children": [
         {
@@ -771,6 +773,7 @@
     {
       "title": "Разум",
       "description": "Мыслительное и психоэмоциональное развитие.",
+      "icon": "./assets/icons/razum.svg",
       "skills": "",
       "children": [
         {
@@ -1537,6 +1540,7 @@
     {
       "title": "Дух",
       "description": "Духовное и ментальное развитие, регенерация Звездной Крови.",
+      "icon": "./assets/icons/duh.svg",
       "skills": "",
       "children": [
         {
@@ -1712,6 +1716,7 @@
               "title": "Некротика",
               "description": "Управление стихией Смерти.",
               "skills": "",
+              "icon": "./assets/icons/necrotic.svg",
               "children": [
                 {
                   "title": "неизвестно",

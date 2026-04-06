@@ -80,14 +80,6 @@
             will-change: transform, filter, opacity;
         }
 
-        #container.warp-jump::before {
-            opacity: 1;
-        }
-
-        #container.warp-jump::after {
-            opacity: 0.98;
-        }
-        
         #controls {
             position: absolute;
             top: 20px;
@@ -163,6 +155,12 @@
             pointer-events: none;
             user-select: none;
         }
+
+        .node-icon-image {
+            pointer-events: none;
+            opacity: 0.96;
+            clip-path: circle(50% at 50% 50%);
+        }
         
         #loading {
             position: absolute;
@@ -190,6 +188,7 @@
             transform: translateY(4px);
             transition: opacity 120ms ease, transform 120ms ease;
             backdrop-filter: blur(4px);
+            box-sizing: border-box;
         }
 
         #tooltip.visible {
@@ -214,6 +213,49 @@
 
         #tooltip .tooltip-value:last-child {
             margin-bottom: 0;
+        }
+
+        #tooltip .tooltip-icon-wrap {
+            position: absolute;
+            top: 10px;
+            right: 12px;
+            width: 76px;
+            height: 76px;
+            margin: 0;
+            padding: 4px;
+            border-radius: 50%;
+            border: 4px solid transparent;
+            background:
+                linear-gradient(
+                    132deg,
+                    rgba(255, 255, 255, 0.02) 34%,
+                    rgba(255, 255, 255, 0.78) 45%,
+                    rgba(255, 255, 255, 0.16) 50%,
+                    rgba(255, 255, 255, 0.03) 55%,
+                    rgba(0, 0, 0, 0.14) 76%
+                ),
+                linear-gradient(
+                    145deg,
+                    color-mix(in srgb, var(--rank-color, #ffffff) 88%, #111722),
+                    color-mix(in srgb, var(--rank-color, #ffffff) 36%, #060a14)
+                );
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow:
+                0 0 0 1px rgba(255, 255, 255, 0.28) inset,
+                -10px -10px 18px color-mix(in srgb, var(--rank-color, #ffffff) 44%, transparent),
+                8px 8px 22px color-mix(in srgb, var(--rank-color, #ffffff) 22%, transparent),
+                0 0 24px color-mix(in srgb, var(--rank-color, #ffffff) 26%, transparent);
+        }
+
+        #tooltip .tooltip-icon {
+            width: 100%;
+            height: 100%;
+            display: block;
+            border-radius: 50%;
+            filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.45));
         }
 
         @keyframes starTwinkle {
@@ -251,32 +293,48 @@
 
         const g = svg.append('g');
         let currentModelRotationDeg = 0;
-        let warpTimeoutId = null;
         let rotationAnimFrameId = null;
+        let warpAnimFrameId = null;
 
         function updateSpaceBackground(transform = d3.zoomIdentity) {
             const x = transform.x || 0;
             const y = transform.y || 0;
             const k = transform.k || 1;
+            const rotRad = currentModelRotationDeg * Math.PI / 180;
+            const rotationParallaxX = Math.sin(rotRad) * 120;
+            const rotationParallaxY = -Math.cos(rotRad) * 120;
 
-            containerEl.style.setProperty('--space-x', `${(x * 0.9).toFixed(2)}px`);
-            containerEl.style.setProperty('--space-y', `${(y * 0.9).toFixed(2)}px`);
+            containerEl.style.setProperty('--space-x', `${(x * 1.2 + rotationParallaxX).toFixed(2)}px`);
+            containerEl.style.setProperty('--space-y', `${(y * 1.2 + rotationParallaxY).toFixed(2)}px`);
             containerEl.style.setProperty('--space-scale', k.toFixed(4));
             containerEl.style.setProperty('--space-rot', currentModelRotationDeg.toFixed(2));
         }
 
         function triggerWarpJump(intensity = 1, duration = 780) {
             const clamped = Math.max(0, Math.min(1.6, intensity));
-            containerEl.classList.add('warp-jump');
-            containerEl.style.setProperty('--warp', clamped.toFixed(2));
-
-            if (warpTimeoutId) {
-                window.clearTimeout(warpTimeoutId);
+            if (warpAnimFrameId) {
+                window.cancelAnimationFrame(warpAnimFrameId);
             }
-            warpTimeoutId = window.setTimeout(() => {
-                containerEl.classList.remove('warp-jump');
-                containerEl.style.setProperty('--warp', '0');
-            }, duration);
+
+            const start = performance.now();
+            const safeDuration = Math.max(180, duration);
+
+            function step(now) {
+                const progress = Math.min(1, (now - start) / safeDuration);
+                const easedOut = 1 - Math.pow(1 - progress, 3);
+                const value = clamped * (1 - easedOut);
+                containerEl.style.setProperty('--warp', value.toFixed(3));
+
+                if (progress < 1) {
+                    warpAnimFrameId = window.requestAnimationFrame(step);
+                } else {
+                    containerEl.style.setProperty('--warp', '0');
+                    warpAnimFrameId = null;
+                }
+            }
+
+            containerEl.style.setProperty('--warp', clamped.toFixed(3));
+            warpAnimFrameId = window.requestAnimationFrame(step);
         }
 
         function animateModelRotationTo(targetDeg, duration = 750) {
@@ -334,6 +392,34 @@
         let selectedNode = null;
         let basePositionsReady = false;
 
+        function sanitizeSvgInput(svgString) {
+            if (typeof svgString !== 'string') return '';
+            return svgString
+                .replace(/<script[\s\S]*?>[\s\S]*?<\/script>/gi, '')
+                .replace(/\son\w+="[^"]*"/gi, '')
+                .replace(/\son\w+='[^']*'/gi, '');
+        }
+
+        function resolveIconDataUrl(iconValue, iconSvgValue) {
+            const iconSvgRaw = typeof iconSvgValue === 'string' ? iconSvgValue.trim() : '';
+            const iconRaw = typeof iconValue === 'string' ? iconValue.trim() : '';
+            const raw = iconSvgRaw || iconRaw;
+            if (!raw) return '';
+
+            if (/^data:image\/svg\+xml/i.test(raw)) {
+                return raw;
+            }
+
+            if (/^(https?:\/\/|\.\/|\/|[A-Za-z]:\\)/i.test(raw)) {
+                return raw;
+            }
+
+            const svgMarkup = raw.includes('<svg')
+                ? sanitizeSvgInput(raw)
+                : `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">${sanitizeSvgInput(raw)}</svg>`;
+            return `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svgMarkup)}`;
+        }
+
         async function loadAttributes() {
             const loadingEl = document.getElementById('loading');
             try {
@@ -362,6 +448,7 @@
                 description: 'Первичный источник восхождения.',
                 layer: -1,
                 nodeId: nodeId++,
+                iconDataUrl: '',
                 children: []
             };
             nodes.push(sourceNode);
@@ -394,6 +481,7 @@
                     id: `${parent.id}_${layer}_${i}`,
                     name: `${layerNames[layer + 1]} ${i + 1}`,
                     description: '',
+                    iconDataUrl: '',
                     layer: layer,
                     nodeId: nodes.length,
                     parent: parent,
@@ -411,13 +499,21 @@
             const nodes = [];
             const links = [];
             let nodeId = 0;
+            const sourceDescription = typeof attributes?.description === 'string'
+                ? attributes.description.replace(/\s+/g, ' ').trim()
+                : 'неизвестно';
+            const sourceSkills = typeof attributes?.skills === 'string'
+                ? attributes.skills.trim()
+                : '';
 
             const sourceNode = {
                 id: 'source',
                 name: sourceTitle,
+                description: sourceDescription || 'неизвестно',
                 layer: -1,
                 nodeId: nodeId++,
-                skills: '',
+                skills: sourceSkills || '',
+                iconDataUrl: resolveIconDataUrl(attributes?.icon, attributes?.iconSvg),
                 children: []
             };
             nodes.push(sourceNode);
@@ -440,6 +536,7 @@
                     name: displayName,
                     description: normalizedNodeDescription,
                     skills: normalizedSkills || '',
+                    iconDataUrl: resolveIconDataUrl(attr.icon, attr.iconSvg),
                     layer: layer,
                     nodeId: nodeId++,
                     parent: parent,
@@ -665,6 +762,15 @@
             function showTooltip(event, node) {
                 const description = (node.description || '').replace(/\s+/g, ' ').trim() || 'неизвестно';
                 const skills = (node.skills || '').replace(/\s+/g, ' ').trim();
+                const rankKey = layerNames[node.layer + 1];
+                const rankColor = layerColors[rankKey] || '#ffffff';
+                const iconBlock = node.iconDataUrl
+                    ? `
+                    <div class="tooltip-icon-wrap" style="--rank-color: ${escapeHtml(rankColor)}; border-color: ${escapeHtml(rankColor)};">
+                        <img class="tooltip-icon" src="${escapeHtml(node.iconDataUrl)}" alt="icon">
+                    </div>
+                `
+                    : '';
                 const skillsBlock = skills
                     ? `
                     <div class="tooltip-label">Скиллы</div>
@@ -672,6 +778,8 @@
                 `
                     : '';
                 const content = `
+                    ${iconBlock}
+                    <div style="${node.iconDataUrl ? 'padding-right: 86px;' : ''}">
                     <div class="tooltip-label">Ранг</div>
                     <div class="tooltip-value">${escapeHtml(getRankName(node))}</div>
                     <div class="tooltip-label">Атрибут</div>
@@ -679,6 +787,7 @@
                     <div class="tooltip-label">Описание</div>
                     <div class="tooltip-value">${escapeHtml(description)}</div>
                     ${skillsBlock}
+                    </div>
                 `;
 
                 tooltipEl.innerHTML = content;
@@ -707,6 +816,16 @@
                     event.stopPropagation();
                     focusNode(d);
                 });
+
+            nodes.filter(d => !!d.iconDataUrl)
+                .append('image')
+                .attr('class', 'node-icon-image')
+                .attr('href', d => d.iconDataUrl)
+                .attr('x', -nodeRadius)
+                .attr('y', -nodeRadius)
+                .attr('width', nodeRadius * 2)
+                .attr('height', nodeRadius * 2)
+                .attr('preserveAspectRatio', 'xMidYMid slice');
 
             nodes.append('text')
                 .attr('class', 'node-text')
