@@ -1634,6 +1634,7 @@
               "title": "Витамантия",
               "description": "Управление жизненными силами и исцелением.",
               "skills": "",
+              "icon": "./assets/icons/vitamantiya.svg",
               "children": [
                 {
                   "title": "Биомантия",
@@ -1970,6 +1971,7 @@
               "title": "Энергия",
               "description": "Манипуляции с энергией.",
               "skills": "",
+              "icon": "./assets/icons/energiya.svg",
               "children": [
                 {
                   "title": "Аура",

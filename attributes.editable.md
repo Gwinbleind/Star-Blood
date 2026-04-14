@@ -1,0 +1,185 @@
+# Атрибуты Star Blood (редактируемая иерархия)
+
+Источник: `attributes.data.json`
+
+## Правила редактирования
+
+- Меняйте значения в полях `title`, `description`, `skills`, `icon`.
+- В `notes` можно писать свободный текст, идеи, варианты, TODO.
+- Сохраняйте вложенность и порядок узлов — это важно для обратной синхронизации в JSON.
+
+---
+
+- title: (пусто)
+  - path: root
+  - description: Азур-источник восходящего
+  - icon: ./assets/icons/istok.svg
+  - children:
+    - title: Тело
+      - path: root.0
+      - description: Показатель развития физических характеристик.
+      - icon: ./assets/icons/telo.svg
+      - children:
+        - title: Физионика
+          - path: root.0.0
+          - description: Физические кондиции организма (сила, выносливость).
+          - skills: Ускоренной Циркуляции ЗК
+          - children:
+            - title: Мощь
+              - path: root.0.0.0
+            - title: Выносливость
+              - path: root.0.0.1
+            - title: Размерность
+              - path: root.0.0.2
+        - title: Моторика
+          - path: root.0.1
+          - description: Скорость реакции, рефлексы и координация движений.
+          - children:
+            - title: Ловкость
+              - path: root.0.1.0
+            - title: Движение
+              - path: root.0.1.1
+            - title: Координация
+              - path: root.0.1.2
+        - title: Телесность
+          - path: root.0.2
+          - description: Скелетный каркас, обмен веществ, живучесть и регенерация.
+          - children:
+            - title: Совершенность
+              - path: root.0.2.0
+            - title: Изменяемость
+              - path: root.0.2.1
+            - title: Адаптивность
+              - path: root.0.2.2
+    - title: Разум
+      - path: root.1
+      - description: Мыслительное и психоэмоциональное развитие.
+      - icon: ./assets/icons/razum.svg
+      - children:
+        - title: Мышление
+          - path: root.1.0
+          - description: Логика, интеллект, память и познание.
+          - children:
+            - title: Интеллект
+              - path: root.1.0.0
+              - description: Способность усваивать, обрабатывать и использовать информацию.
+              - children:
+                - title: Воображение
+                  - path: root.1.0.0.0
+                - title: Искусность
+                  - path: root.1.0.0.1
+                  - description: спутница великих мастеров
+                - title: Анализ
+                  - path: root.1.0.0.2
+                  - description: видеть причины и следствия
+            - title: Мнемоника
+              - path: root.1.0.1
+              - children:
+                - title: Память Прошлого
+                  - path: root.1.0.1.0
+            - title: Интуиция
+              - path: root.1.0.2
+              - description: Умение видеть знаки Незримого.
+              - children:
+                - title: Всеведение
+                  - path: root.1.0.2.0
+        - title: Восприятие
+          - path: root.1.1
+          - description: Извлечение полезной информации из органов чувств.
+          - children:
+            - title: Познание
+              - path: root.1.1.2
+            - title: Острота
+              - path: root.1.1.0
+            - title: Чувственность
+              - path: root.1.1.1
+        - title: Воля
+          - path: root.1.2
+          - children:
+            - title: Контроль
+              - path: root.1.2.0
+              - children:
+                - title: Множественность
+                  - path: root.1.2.0.2
+                  - description: разделение сознания на потоки
+                - title: Абсолютность
+                  - path: root.1.2.0.0
+                - title: Бастион
+                  - path: root.1.2.0.1
+            - title: Подчинение
+              - path: root.1.2.1
+              - children:
+                - title: Владычество
+                  - path: root.1.2.1.2
+                - title: Влияние
+                  - path: root.1.2.1.0
+                - title: Иерархия
+                  - path: root.1.2.1.1
+            - title: Устойчивость
+              - path: root.1.2.2
+    - title: Дух
+      - path: root.2
+      - description: Духовное и ментальное развитие, регенерация Звездной Крови.
+      - icon: ./assets/icons/duh.svg
+      - children:
+        - title: Стихийность
+          - path: root.2.0
+          - description: Сродство со стихиями и сопротивление стихийному урону.
+          - children:
+            - title: Элементность
+              - path: root.2.0.0
+              - description: Управление стихийными силами.
+              - children:
+                - title: Повелевание
+                  - path: root.2.0.0.2
+                - title: Поглощение
+                  - path: root.2.0.0.0
+                - title: Синтез
+                  - path: root.2.0.0.1
+            - title: Витамантия
+              - path: root.2.0.1
+              - description: Управление жизненными силами и исцелением.
+              - icon: ./assets/icons/Vitamantiya.svg
+              - children:
+                - title: Биомантия
+                  - path: root.2.0.1.2
+                  - description: управление живым
+                - title: Творение
+                  - path: root.2.0.1.0
+                  - description: создание и изменение жизни
+                - title: Возрождение
+                  - path: root.2.0.1.1
+                  - description: исцеление и живучесть
+            - title: Некротика
+              - path: root.2.0.2
+              - description: Управление стихией Смерти.
+              - icon: ./assets/icons/necrotic.svg
+        - title: Ментальность
+          - path: root.2.1
+          - description: Ускоряет восполнение Звездной Крови, открывает ментальные навыки.
+          - children:
+            - title: Мистика
+              - path: root.2.1.1
+            - title: Псионика
+              - path: root.2.1.0
+            - title: Энергия
+              - path: root.2.1.2
+              - description: Манипуляции с энергией.
+              - icon: ./assets/icons/Energiya.svg
+              - children:
+                - title: Аура
+                  - path: root.2.1.2.2
+                - title: Потенциал
+                  - path: root.2.1.2.0
+                - title: Эманации
+                  - path: root.2.1.2.1
+        - title: Предвидение
+          - path: root.2.2
+          - skills: Контроль ЗК (руной) и Концентрация
+          - children:
+            - title: Ритуальность
+              - path: root.2.2.2
+            - title: Теургия
+              - path: root.2.2.0
+            - title: Прозрение
+              - path: root.2.2.1

@@ -147,7 +147,7 @@
         
         .node-text {
             text-anchor: middle;
-            dominant-baseline: middle;
+            dominant-baseline: auto;
             font-size: 12px;
             font-weight: 800;
             paint-order: stroke fill;
@@ -550,7 +550,7 @@
                     parent.children.push(node);
                 }
 
-                if (attr.children && Array.isArray(attr.children) && layer < 4) {
+                if (Array.isArray(attr.children) && attr.children.length > 0 && layer < 4) {
                     attr.children.forEach(child => {
                         processNode(child, layer + 1, node);
                     });
@@ -829,6 +829,7 @@
 
             nodes.append('text')
                 .attr('class', 'node-text')
+                .attr('y', nodeRadius)
                 .text(d => d.name)
                 .style('fill', d => getTextStyleForLayer(d.layer).textColor)
                 .style('stroke', d => getTextStyleForLayer(d.layer).strokeColor)
@@ -1042,6 +1043,7 @@
         function wrap(text, width) {
             text.each(function() {
                 const text = d3.select(this);
+                const yBase = Number.parseFloat(text.attr('y')) || 0;
                 const normalizedText = (text.text() || '').replace(/\s+/g, ' ').trim();
                 text.text(null);
 
@@ -1074,12 +1076,13 @@
                 measureTspan.remove();
 
                 const lineCount = lines.length;
-                const startDy = -((lineCount - 1) * lineHeightEm) / 2;
+                // Bottom align label block to yBase (icon lower edge).
+                const startDy = -((lineCount - 1) * lineHeightEm);
 
                 lines.forEach((lineText, index) => {
                     text.append('tspan')
                         .attr('x', 0)
-                        .attr('y', 0)
+                        .attr('y', yBase)
                         .attr('dy', `${startDy + index * lineHeightEm}em`)
                         .text(lineText);
                 });
